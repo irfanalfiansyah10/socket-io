@@ -1,0 +1,20 @@
+{
+    "development" : {
+        "base_url" : "http://localhost:8888/halokes/index.php/api",
+        "log_path" : "log/development/",
+        "log_level" : "silly",
+        "log_filename" : ".log"
+    },
+    "staging" : {
+        "base_url" : "http://localhost:8888/halokes/index.php/api",
+        "log_path" : "log/staging/",
+        "log_level" : "debug",
+        "log_filename" : ".log"
+    },
+    "production" : {
+        "base_url" : "http://localhost:8888/halokes/index.php/api",
+        "log_path" : "log/production/",
+        "log_level" : "info",
+        "log_filename" : ".log"
+    }
+}
